@@ -1,10 +1,10 @@
 import "./App.css";
+import Login from "../pages/login";
 
 function App() {
   return (
     <div className="App">
-      <h2>Welcome to Fietsa Hub</h2>
-      <p className="paragraph">Hi There! It is project time.</p>
+      <Login />
     </div>
   );
 }
