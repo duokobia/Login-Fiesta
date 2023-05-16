@@ -41,6 +41,22 @@
             "error",
             "double"
         ],
-        "object-curly-newline": ["error", "always"]
+        "object-curly-newline": [
+            "error",
+            "always"
+        ],
+        "no-restricted-exports": [
+            "error",
+            {
+                "restrictedNamedExports": ["foo", "bar"]
+            }
+        ],
+        "jsx-a11y/label-has-associated-control": [
+            "error",
+            {
+                "assert": "either"
+            }
+        ]
+        
     }
 }
