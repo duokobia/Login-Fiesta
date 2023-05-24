@@ -1,12 +1,12 @@
 import "./App.css";
 import Login from "../pages/login";
+// import Demo from "./Demo";
 
-function App() {
-  return (
-    <div className="App">
-      <Login />
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Login />
+    {/* <Demo /> */}
+  </div>
+);
 
 export default App;
